@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 6em;
+}
+header p {
+  font-size: 2em;
+}
+header .bars {
+  display: none;
+}
+header .menu {
+  margin-top: 1em;
+}
+header .menu a {
+  text-decoration: none;
+  margin-left: 1em;
+  color: black;
+  font-size: 1.5em;
+}
+header .menu a:hover {
+  color: #00CC66;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section nav h1 {
+  font-size: 4em;
+  color: #00CC66;
+}
+section nav h2 {
+  font-size: 4em;
+  margin-top: 1rem;
+}
+section nav p {
+  font-size: 2em;
+  margin-top: 1rem;
+}
+section nav .btn2 {
+  margin-top: 1rem;
+  padding: 14px 32px;
+  border-radius: 4px;
+  border: none;
+  background-color: #00CC66;
+  font-size: 1rem;
+}
+section nav .btn2::after {
+  background-color: red;
+  transition: all 0.3s;
+}
+section nav .btn2 a {
+  text-decoration: none;
+  color: white;
+}
+section nav .btn2 a::after {
+  color: red;
+}
+section nav img {
+  height: 40em;
+  width: 36em;
+}/*# sourceMappingURL=style.css.map */

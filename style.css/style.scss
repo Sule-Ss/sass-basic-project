@@ -1,0 +1,77 @@
+@import "reset";
+@import "variables";
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: $headerMargin;
+
+    p{
+        font-size: $pFontSize;
+    }
+    .bars{
+        display: none;
+    }
+    .menu{
+        margin-top: 1em;
+        a{
+            text-decoration: none;
+            margin-left: 1em;
+            color: black;
+            font-size: 1.5em;
+            &:hover{
+                color: $color;
+            }
+        }
+    }
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    nav{
+        h1{
+            font-size: $hFontSize;
+            color: $color;
+        }
+        h2{
+            font-size: $hFontSize;
+            margin-top: 1rem;
+        }
+        p{
+            font-size: $pFontSize;
+            margin-top: 1rem;
+        }
+        .btn2{
+            margin-top: 1rem;
+            padding: 14px 32px;
+            border-radius: 4px;
+            border: none;
+            background-color: $color;
+            font-size: 1rem;
+            &::after{
+                background-color: red;
+                transition: all 0.3s;
+                
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                &::after{
+                    color: red;
+                }
+            }
+        }
+
+    }
+    nav{
+        img{
+            height: 40em;
+            width: 36em;
+        }
+    }
+}
+
+
+
